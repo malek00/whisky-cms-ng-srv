@@ -4,7 +4,9 @@
   "description": "cms based on the mean",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lint & nodemon app.js",
+    "lint": "./node_modules/.bin/eslint **/*.js"
   },
   "keywords": [
     "mongo",
@@ -17,7 +19,10 @@
     "eslint": "^7.11.0"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "cors": "^2.8.5",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.10.9",
+    "nodemon": "^2.0.4"
   }
 }
