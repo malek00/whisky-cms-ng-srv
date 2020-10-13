@@ -1,0 +1,16 @@
+{
+  "name": "whisky-cms-ng-srv",
+  "version": "1.0.0",
+  "description": "cms based on the mean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongo",
+    "express",
+    "node"
+  ],
+  "author": " <derbel malek> (example.com)",
+  "license": "MIT"
+}
